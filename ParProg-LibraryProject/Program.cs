@@ -6,9 +6,19 @@ namespace ParProg_LibraryProject
     {
         static void Main(string[] args)
         {
-            dataBase.viewDatabase();
-
+            //var library = new Library("GetBooks");
+            //var book = new Book("Tittel", "Beskrivelse", "Sjanger", "Forfatter");
+            //var book = new Book(Tittel, Beskrivelse, Sjanger, Forfatter);
             Console.WriteLine("Hello, World!");
+
+            var admin = new User();
+            admin.LogIn();
+
+            // ToDoList:
+
+            // Login
+            // Legg til nye bøker
+            // Utleie
         }
     }
 }

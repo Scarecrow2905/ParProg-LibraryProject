@@ -19,7 +19,9 @@ namespace ParProg_LibraryProject
             IsAdmin = isAdmin;
         }
 
-        protected abstract void LogIn();
+        protected abstract void checkUserName();
+        protected abstract void checkPassword();
+        protected abstract bool LogIn();
         protected abstract void LogOut();
     }
 }

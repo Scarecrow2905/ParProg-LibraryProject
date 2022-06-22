@@ -1,0 +1,15 @@
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\obj\Debug\net6.0\ParProg-LibraryProject.csproj.AssemblyReference.cache
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\obj\Debug\net6.0\ParProg-LibraryProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\obj\Debug\net6.0\ParProg-LibraryProject.AssemblyInfoInputs.cache
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\obj\Debug\net6.0\ParProg-LibraryProject.AssemblyInfo.cs
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\obj\Debug\net6.0\ParProg-LibraryProject.csproj.CoreCompileInputs.cache
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\bin\Debug\net6.0\ParProg-LibraryProject.exe
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\bin\Debug\net6.0\ParProg-LibraryProject.deps.json
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\bin\Debug\net6.0\ParProg-LibraryProject.runtimeconfig.json
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\bin\Debug\net6.0\ParProg-LibraryProject.dll
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\bin\Debug\net6.0\ParProg-LibraryProject.pdb
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\obj\Debug\net6.0\ParProg-LibraryProject.dll
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\obj\Debug\net6.0\refint\ParProg-LibraryProject.dll
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\obj\Debug\net6.0\ParProg-LibraryProject.pdb
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\obj\Debug\net6.0\ParProg-LibraryProject.genruntimeconfig.cache
+C:\Users\Tommy\Documents\GitHub\ParProg-LibraryProject\ParProg-LibraryProject\obj\Debug\net6.0\ref\ParProg-LibraryProject.dll
