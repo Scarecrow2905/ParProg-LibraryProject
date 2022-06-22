@@ -11,8 +11,10 @@ namespace ParProg_LibraryProject
             //var book = new Book(Tittel, Beskrivelse, Sjanger, Forfatter);
             Console.WriteLine("Hello, World!");
 
-            var admin = new User();
-            admin.LogIn();
+            Library library = new Library("");
+
+            
+            library.loginManager.LogIn();
 
             // ToDoList:
 

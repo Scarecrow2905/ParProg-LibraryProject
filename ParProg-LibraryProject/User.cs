@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ParProg_LibraryProject
 {
-    abstract class User
+    public abstract class User
     {
-        public string UserName { get; set; }
-        public string Password { get; set; }
-        public bool IsAdmin { get; set; }
+        public string UserName { get; protected set; }
+        public string Password { get; protected set; }
+        public bool IsAdmin { get; protected set; }
 
         protected User(string userName, string password, bool isAdmin)
         {
@@ -19,9 +19,9 @@ namespace ParProg_LibraryProject
             IsAdmin = isAdmin;
         }
 
-        protected abstract void checkUserName();
-        protected abstract void checkPassword();
-        protected abstract bool LogIn();
-        protected abstract void LogOut();
+        //protected abstract bool checkUserName();
+        //protected abstract bool checkPassword();
+        //public abstract bool LogIn();
+        //protected abstract void LogOut();
     }
 }

@@ -8,5 +8,6 @@ namespace ParProg_LibraryProject
 {
     internal class Book
     {
+
     }
 }

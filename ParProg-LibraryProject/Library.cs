@@ -9,14 +9,17 @@ namespace ParProg_LibraryProject
     public class Library
     {
         public string Name { get; set; }
-        private UserDatabase userDatabase;
-        public BookDatabase bookDatabase;
+        public UserDatabase userDatabase;
+        public LoginManager loginManager;
+        //public BookDatabase bookDatabase;
 
         public Library(string name)
         {
             userDatabase = new UserDatabase();
-            bookDatabase = new BookDatabase();
+            loginManager = new LoginManager(this);
+            //bookDatabase = new BookDatabase();
             Name = name;
+
         }
     }
 }
