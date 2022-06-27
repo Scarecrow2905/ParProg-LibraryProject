@@ -12,17 +12,27 @@ namespace ParProg_LibraryProject
 
         public UserDatabase()
         {
+            //Creates admin users
             Admin siljeAdmin = new Admin("Silje", "abc123", true);
             Admin tommyAdmin = new Admin("Tommy", "kaffekopp", true);
 
-            //Customer kurtKåre = new Customer("Kurt Kåre", "SnartSommer", false);
-            //Customer guroBjørg = new Customer("Guro Bjørg", "SnartHøst", false);
-            //Customer danBørge = new Customer("Dan Børge", "Krølltopp123", false);
+            //Creates customer users
+            Customer kurtKåre = new Customer("Kurt Kåre", "SnartSommer", false);
+            Customer guroBjørg = new Customer("Guro Bjørg", "SnartHøst", false);
+            Customer danBørge = new Customer("Dan Børge", "Krølltopp123", false);
 
+            //Creates a list for the users
             UserList = new List<User>();
+
+            //Admin
             UserList.Add(tommyAdmin);
             UserList.Add(siljeAdmin);
-            //DatabaseList.Add(danBørge);
+
+            //Customer
+            UserList.Add(kurtKåre);
+            UserList.Add(guroBjørg);
+            UserList.Add(danBørge);
+            
         }
 
 

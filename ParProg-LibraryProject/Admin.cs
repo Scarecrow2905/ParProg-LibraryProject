@@ -16,8 +16,6 @@ namespace ParProg_LibraryProject
             
         }
 
-        
-
         protected void BookOverview()
         {
 

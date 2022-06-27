@@ -6,22 +6,19 @@ using System.Threading.Tasks;
 
 namespace ParProg_LibraryProject
 {
-    //public class Customer : User
+    internal class Customer : User
+    {
+        private Customer customer;
 
-    //{
-    //    public Customer(string userName, string password, bool isAdmin) : base(userName, password, isAdmin)
-    //{
-
-    //}
-
-    //public override bool LogIn()
-    //{
-    //}
+        public Customer(string userName, string password, bool isAdmin) 
+            : base (userName, password, isAdmin)
+        {
+            
+        }
 
 
-    //protected override void LogOut()
-    //{
+    }
 
-    //}
+
 }
-//
+

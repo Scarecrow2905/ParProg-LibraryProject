@@ -26,11 +26,6 @@ namespace ParProg_LibraryProject
                 return true;
             }
             return false;
-
-            //Console.WriteLine("Skriv inn passord: ");
-            //checkPassword();
-            // Sjekker om alt stemmer - Metode her
-            
         }
 
         private User checkUserName() // Creds Ben!!
@@ -38,7 +33,8 @@ namespace ParProg_LibraryProject
             Console.WriteLine("Skriv inn brukernavn: ");
 
             var userName = Console.ReadLine();
-            User? userFound = _library.userDatabase.UserList.FirstOrDefault(user => user?.UserName == userName, null);
+            User? userFound = _library.userDatabase.UserList.FirstOrDefault(user => user?.UserName == userName, null); // Leter etter username som er skrivd inn, hvis den
+                                                                                                                       // finner så returner den userName hvis ikke returnerer Null
 
             if (userFound == null)
             {
@@ -48,7 +44,7 @@ namespace ParProg_LibraryProject
 
             if (userFound is Admin)
             {
-                userFound = (Admin)userFound;
+                userFound = (Admin)userFound; // Her blir userFound Castet til Admin klassen
                 if (checkPassword(userFound))
                 {
                     Console.WriteLine("Admin-user found");
@@ -56,27 +52,35 @@ namespace ParProg_LibraryProject
                 }
             }
 
-            return null;
+            if (userFound is Customer)
+            {
+                userFound = (Customer)userFound;
+                if (checkPassword(userFound))
+                {
+                    Console.WriteLine("Customer-user found");
+                    return userFound;
+                }
+            }
 
-            //if (userFound is Customer)
-            //{
-                
-            //}
+
+            return null;
 
         }
 
         private bool checkPassword(User user)
         {
             Console.WriteLine("Skriv inn passord: ");
-            var password = Console.ReadLine();
 
+            var password = Console.ReadLine();
+            User? passwordFound = _library.userDatabase.UserList.FirstOrDefault(user => user?.Password == password, null);
+
+            if (passwordFound == null)
+            {
+                Console.WriteLine("Wrong password!");
+                return false;
+            }
             return password == user.Password;
 
-            //if (password == "kaffekopp" || password == "abc123")
-            //{
-            //    Console.WriteLine("Du er logget inn");
-            //}
-            //return true;
         }
 
 

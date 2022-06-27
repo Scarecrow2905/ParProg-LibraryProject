@@ -11,16 +11,23 @@ namespace ParProg_LibraryProject
             //var book = new Book(Tittel, Beskrivelse, Sjanger, Forfatter);
             Console.WriteLine("Hello, World!");
 
-            Library library = new Library("");
+            Library library = new Library("BiblioGet");
 
-            
+            var example = "Bjørnar";
+            Console.WriteLine(example.ReverseString());
             library.loginManager.LogIn();
+            library.bookManager.CheckBookGenre();
+            //library.bookManager._library.bookManager._library... osv
+
+            //Console.WriteLine(library.GetType().Name);
 
             // ToDoList:
 
-            // Login
+            // Login = Ferdig
+
             // Legg til nye bøker
             // Utleie
+            // Logout
         }
     }
 }

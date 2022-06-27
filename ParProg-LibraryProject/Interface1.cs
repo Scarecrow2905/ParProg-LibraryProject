@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace ParProg_LibraryProject
 {
-    internal class Book
+    internal interface Book
     {
-
     }
 }

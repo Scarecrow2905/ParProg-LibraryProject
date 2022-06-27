@@ -11,6 +11,7 @@ namespace ParProg_LibraryProject
         public string UserName { get; protected set; }
         public string Password { get; protected set; }
         public bool IsAdmin { get; protected set; }
+        public bool IsLoggedInn { get; protected set; }
 
         protected User(string userName, string password, bool isAdmin)
         {
