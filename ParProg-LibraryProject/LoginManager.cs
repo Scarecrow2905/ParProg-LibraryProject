@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace ParProg_LibraryProject
 {
     public class LoginManager
-
     {
         private readonly Library _library;
 

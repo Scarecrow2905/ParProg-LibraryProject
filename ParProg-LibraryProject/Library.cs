@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ParProg_LibraryProject.Menus;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,7 @@ namespace ParProg_LibraryProject
         public LoginManager loginManager;
         public BookDataBase bookDatabase;
         public BookManager bookManager;
+        public MenuManager menuManager;
 
         public Library(string name)
         {
@@ -21,6 +23,7 @@ namespace ParProg_LibraryProject
             loginManager = new LoginManager(this);
             bookDatabase = new BookDataBase();
             bookManager = new BookManager(this);
+            menuManager = new MenuManager(this);
             Name = name;
         }
     }

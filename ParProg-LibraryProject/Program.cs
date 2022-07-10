@@ -13,10 +13,12 @@ namespace ParProg_LibraryProject
 
             Library library = new Library("BiblioGet");
 
-            var example = "Bjørnar";
-            Console.WriteLine(example.ReverseString());
             library.loginManager.LogIn();
-            library.bookManager.CheckBookGenre();
+            library.menuManager.ShowMainMenu();
+            
+            //library.bookManager.CheckBookGenre(); 
+
+
             //library.bookManager._library.bookManager._library... osv
 
             //Console.WriteLine(library.GetType().Name);

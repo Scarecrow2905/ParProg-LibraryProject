@@ -31,20 +31,10 @@ namespace ParProg_LibraryProject
             //Customer
             UserList.Add(kurtKåre);
             UserList.Add(guroBjørg);
-            UserList.Add(danBørge);
+            UserList.Add(danBørge); // Akerø lol
             
         }
 
-
-
-        public void viewDatabase()
-        {
-
-            foreach (var user in UserList)
-            {
-                Console.WriteLine(user.UserName);
-            }
-        }
 
     }
 }
